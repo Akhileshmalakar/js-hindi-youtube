@@ -24,4 +24,15 @@ let Islogin = true/false  // bool
 
 // Object
 
-console.log(typeof,"1234");
+console.log(typeof "akku");
+console.log(typeof age);
+console.log(typeof null);      // null ak object he 
+console.log(typeof undefined);  
+
+
+
+
+
+
+
+
