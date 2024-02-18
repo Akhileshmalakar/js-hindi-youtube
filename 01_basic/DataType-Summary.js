@@ -10,39 +10,87 @@
 // Primitive 
 // 7 types : String, Number, Boolean, null, undefined, Symbol, Bigint
 // EX.
-const score = 100;  // Number defined
-const scoreValue = 100.43   // Number defined
+// const score = 100;  // Number defined
+// const scoreValue = 100.43   // Number defined
 
-const isLoggedIn = false    // boolean type
+// const isLoggedIn = false    // boolean type
 
-const outsideTemp = null    // null
+// const outsideTemp = null    // null
 
-let userEmail;  // undefined type
+// let userEmail;  // undefined type
 
-const id = Symbol('123');   // Symbol types
-const anotherId = Symbol('123');    // dono me value same he but return false ayga 
+// const id = Symbol('123');   // Symbol types
+// const anotherId = Symbol('123');    // dono me value same he but return false ayga 
 
-const bignumber = 541897641568455n;     // Bigint type
+// const bignumber = 541897641568455n;     // Bigint type
 
 
 
-// Non-primitive(Reference)
-// Types : Array, Object, Functions
+// // Non-primitive(Reference)
+// // Types : Array, Object, Functions
 
-const heros = ["Akku", "Ak", "MAa"];    // array 
+// const heros = ["Akku", "Ak", "MAa"];    // array 
 
-let myObj = {
-    name : "Akku",
-    age : 18,
-    // curli basis ke ander jitni bhi values he wo Objects he, data type kuch bhi skta he
+// let myObj = {
+//     name : "Akku",
+//     age : 18,
+//     // curli basis ke ander jitni bhi values he wo Objects he, data type kuch bhi skta he
+// }
+
+
+// const myFunction = function(){
+//     console.log("Hello word");      // function(){} : ye simple declear
+// }
+
+// console.log(typeof bignumber);
+
+
+
+//******************Stack and Heap****************
+
+// Stack(Primitive)
+
+// let myName = "Akhilesh malakar";
+// let anotherName = myName;
+// anotherName = "Akku";
+
+// console.log(myName);
+// console.log(anotherName);
+
+
+// Heap(Non-Primitive) 
+let UserOne = {
+    Email: "Akhileshmalakar1233@gmail.cocm",
+    UPI: "ybl423445"
 }
 
+let UserTwo = UserOne;
+UserTwo.Email = "Akku@234";
 
-const myFunction = function(){
-    console.log("Hello word");      // function(){} : ye simple declear
-}
+console.log(UserOne.Email);
+console.log(UserTwo.Email);
 
-console.log(typeof bignumber);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
