@@ -50,9 +50,41 @@ const user = [
 user[1].email
 // console.log(tinderUser)
 
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
 
-console.log(tinderUser.hasOwnProperty('IsloggedIn'));
-console.log(tinderUser.hasOwnProperty('nam'));
+
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
+
+// console.log(tinderUser.hasOwnProperty('IsloggedIn'));
+// console.log(tinderUser.hasOwnProperty('nam'));
+
+
+//*********d-structue  */
+const course = {
+    coursename: "js hindi",
+    price: "999",
+    courseInstructer: "Akku"
+}
+
+// course.courseInstructer
+
+const {courseInstructor: instructor} = course;
+
+// console.log(courseInstructer);
+console.log(instructor);
+
+// json API
+// {
+//     "name": "Akhilesh",
+//     "CourseName": "js in hindi",
+//     "Price": "free"
+// }
+
+// arr ke format me api
+[
+    {},
+    {},
+    {}
+]
+
