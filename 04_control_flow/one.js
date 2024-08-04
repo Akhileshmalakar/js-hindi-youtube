@@ -26,7 +26,13 @@ const Balance = 1000
 
 const isUserloggedIn = true
 const debitCard = true
+const loggedInFromGoogle = false
+const loggedInFromEmail = true 
 
-if(isUserloggedIn && debitCard ){
-    console.log("Allo")
+if(isUserloggedIn && debitCard){
+    console.log("Allow to buy course");
+}
+
+if (loggedInFromGoogle || loggedInFromEmail){
+    console.log("user logged in ");
 }
